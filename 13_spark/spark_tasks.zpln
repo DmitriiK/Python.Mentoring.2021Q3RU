@@ -1,0 +1,1193 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "%pyspark\ndf = spark.read.csvE",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-08T06:54:37+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=8",
+              "$$hashKey": "object:35856"
+            },
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=9",
+              "$$hashKey": "object:35857"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636300913811_695253515",
+      "id": "paragraph_1636300913811_695253515",
+      "dateCreated": "2021-11-07T16:01:53+0000",
+      "dateStarted": "2021-11-07T17:12:07+0000",
+      "dateFinished": "2021-11-07T17:12:08+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4166",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "text": "%pyspark\ndf.show()",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-08T06:54:51+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=86",
+              "$$hashKey": "object:35913"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636301030444_1340914861",
+      "id": "paragraph_1636301030444_1340914861",
+      "dateCreated": "2021-11-07T16:03:50+0000",
+      "dateStarted": "2021-11-08T06:54:51+0000",
+      "dateFinished": "2021-11-08T06:54:51+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:4167",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+------+-------+---------+----------+--------------------+---+------+--------------------+------------+------+\n|  City|Edition|    Sport|Discipline|             Athlete|NOC|Gender|               Event|Event_gender| Medal|\n+------+-------+---------+----------+--------------------+---+------+--------------------+------------+------+\n|Athens|   1896| Aquatics|  Swimming|       HAJOS, Alfred|HUN|   Men|      100m freestyle|           M|  Gold|\n|Athens|   1896| Aquatics|  Swimming|    HERSCHMANN, Otto|AUT|   Men|      100m freestyle|           M|Silver|\n|Athens|   1896| Aquatics|  Swimming|   DRIVAS, Dimitrios|GRE|   Men|100m freestyle fo...|           M|Bronze|\n|Athens|   1896| Aquatics|  Swimming|  MALOKINIS, Ioannis|GRE|   Men|100m freestyle fo...|           M|  Gold|\n|Athens|   1896| Aquatics|  Swimming|  CHASAPIS, Spiridon|GRE|   Men|100m freestyle fo...|           M|Silver|\n|Athens|   1896| Aquatics|  Swimming|CHOROPHAS, Efstat...|GRE|   Men|     1200m freestyle|           M|Bronze|\n|Athens|   1896| Aquatics|  Swimming|       HAJOS, Alfred|HUN|   Men|     1200m freestyle|           M|  Gold|\n|Athens|   1896| Aquatics|  Swimming|    ANDREOU, Joannis|GRE|   Men|     1200m freestyle|           M|Silver|\n|Athens|   1896| Aquatics|  Swimming|CHOROPHAS, Efstat...|GRE|   Men|      400m freestyle|           M|Bronze|\n|Athens|   1896| Aquatics|  Swimming|       NEUMANN, Paul|AUT|   Men|      400m freestyle|           M|  Gold|\n|Athens|   1896| Aquatics|  Swimming|   PEPANOS, Antonios|GRE|   Men|      400m freestyle|           M|Silver|\n|Athens|   1896|Athletics| Athletics|       LANE, Francis|USA|   Men|                100m|           M|Bronze|\n|Athens|   1896|Athletics| Athletics|    SZOKOLYI, Alajos|HUN|   Men|                100m|           M|Bronze|\n|Athens|   1896|Athletics| Athletics|       BURKE, Thomas|USA|   Men|                100m|           M|  Gold|\n|Athens|   1896|Athletics| Athletics|      HOFMANN, Fritz|GER|   Men|                100m|           M|Silver|\n|Athens|   1896|Athletics| Athletics|      CURTIS, Thomas|USA|   Men|        110m hurdles|           M|  Gold|\n|Athens|   1896|Athletics| Athletics|  GOULDING, Grantley|GBR|   Men|        110m hurdles|           M|Silver|\n|Athens|   1896|Athletics| Athletics|   LERMUSIAUX, Albin|FRA|   Men|               1500m|           M|Bronze|\n|Athens|   1896|Athletics| Athletics|        FLACK, Edwin|AUS|   Men|               1500m|           M|  Gold|\n|Athens|   1896|Athletics| Athletics|       BLAKE, Arthur|USA|   Men|               1500m|           M|Silver|\n+------+-------+---------+----------+--------------------+---+------+--------------------+------------+------+\nonly showing top 20 rows\n\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%pyspark\ndf.createOrReplaceTempView('olympics')",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-08T06:57:49+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636301049760_1221312321",
+      "id": "paragraph_1636301049760_1221312321",
+      "dateCreated": "2021-11-07T16:04:09+0000",
+      "dateStarted": "2021-11-08T06:57:49+0000",
+      "dateFinished": "2021-11-08T06:57:50+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:4168",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "text": "%sql\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-07T16:13:26+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636301452634_155952899",
+      "id": "paragraph_1636301452634_155952899",
+      "dateCreated": "2021-11-07T16:10:52+0000",
+      "dateStarted": "2021-11-07T16:13:26+0000",
+      "dateFinished": "2021-11-07T16:13:26+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:4169"
+    },
+    {
+      "text": "%md\n## На какой дистанции Jesse Owens выйграл медаль",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-07T17:15:43+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636301628259_1650746058",
+      "id": "paragraph_1636301628259_1650746058",
+      "dateCreated": "2021-11-07T16:13:48+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:4171",
+      "dateFinished": "2021-11-07T17:15:43+0000",
+      "dateStarted": "2021-11-07T17:15:43+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>На какой дистанции Jesse Owens выйграл медаль</h2>\n\n</div>"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%sql\nselect Event from olympics where Athlete =\"OWENS, Jesse\"",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-08T06:58:21+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Event": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          },
+          "1": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "City": "string",
+                      "Edition": "string",
+                      "Sport": "string",
+                      "Discipline": "string",
+                      "Athlete": "string",
+                      "NOC": "string",
+                      "Gender": "string",
+                      "Event": "string",
+                      "Event_gender": "string",
+                      "Medal": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=87",
+              "$$hashKey": "object:36082"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636304949573_813005674",
+      "id": "paragraph_1636304949573_813005674",
+      "dateCreated": "2021-11-07T17:09:09+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:4702",
+      "dateFinished": "2021-11-08T06:58:21+0000",
+      "dateStarted": "2021-11-08T06:58:21+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Event\n100m\n200m\n4x100m relay\nlong jump\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%sql\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-07T19:38:56+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636313936942_1774150108",
+      "id": "paragraph_1636313936942_1774150108",
+      "dateCreated": "2021-11-07T19:38:56+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:29762"
+    },
+    {
+      "text": "%sql\n-- Какая страна выйграла большинство золотых медалей мужчинами в бадминтоне? Отсортировать результат в алфавитном порядке по имени игрока.\nWITH \n base_facts as (\n     SELECT City,Edition,Sport, Athlete,NOC,Event FROM olympics \n     WHERE Medal=\"Gold\" and Discipline=\"Badminton\" and Gender='Men'\n )\n,aggr as (SELECT NOC, count(*) as cnt FROM base_facts GROUP BY NOC)\n,rnk as (SELECT aggr.NOC, RANK() OVER (ORDER BY cnt DESC) rnk FROM aggr)\nSELECT bf.* from rnk \n    JOIN base_facts bf on bf.NOC=rnk.NOC \n    WHERE rnk.rnk=1\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-08T06:58:56+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "City": "string",
+                      "Edition": "string",
+                      "Sport": "string",
+                      "Athlete": "string",
+                      "NOC": "string",
+                      "Event": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          },
+          "1": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Event": "string"
+                    },
+                    "updated": true
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=88",
+              "$$hashKey": "object:36537"
+            },
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=89",
+              "$$hashKey": "object:36538"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636305350238_228384290",
+      "id": "paragraph_1636305350238_228384290",
+      "dateCreated": "2021-11-07T17:15:50+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:7811",
+      "dateFinished": "2021-11-08T06:58:57+0000",
+      "dateStarted": "2021-11-08T06:58:56+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "City\tEdition\tSport\tAthlete\tNOC\tEvent\nBarcelona\t1992\tBadminton\tBUDI KUSUMA, Alan\tINA\tsingles\nAtlanta\t1996\tBadminton\tMAINAKY, Rexy Ronald\tINA\tdoubles\nAtlanta\t1996\tBadminton\tSUBAGJA, Ricky Achmad\tINA\tdoubles\nSydney\t2000\tBadminton\tGUNAWAN, Tony\tINA\tdoubles\nSydney\t2000\tBadminton\tWIJAYA, Candra\tINA\tdoubles\nAthens\t2004\tBadminton\tHIDAYAT, Taufik\tINA\tsingles\nBeijing\t2008\tBadminton\tKIDO, Markis\tINA\tdoubles\nBeijing\t2008\tBadminton\tSETIAWAN, Hendra\tINA\tdoubles\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%sql\n--Какие три страны выйграли большинство медалей в последние годы (с 1984 по 2008)?\nWITH \n base_facts as (SELECT * FROM olympics WHERE Edition BETWEEN 1984 AND 2008)\n,aggr as (SELECT NOC, count(*) as cnt FROM base_facts GROUP BY NOC)\n,rnk as (SELECT aggr.NOC, cnt, RANK() OVER (ORDER BY cnt DESC) rnk FROM aggr) \n--what should we display in case when we have same number of medals for different countries at the 3-rd place - not specified\nSELECT NOC, cnt from rnk  WHERE rnk.rnk<=3 ",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-08T06:59:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "editorHide": false,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "NOC": "string",
+                      "cnt": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=39",
+              "$$hashKey": "object:37257"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636305984887_1455214275",
+      "id": "paragraph_1636305984887_1455214275",
+      "dateCreated": "2021-11-07T17:26:24+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:18248",
+      "dateFinished": "2021-11-07T18:48:43+0000",
+      "dateStarted": "2021-11-07T18:48:43+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "NOC\tcnt\nUSA\t1837\nAUS\t762\nGER\t691\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%pyspark\n# Покажите мужчин золотых медалистов по 100m. Выведите результаты по убыванию года выйгрыша. Покажите город в котором проходила олимпиала, год, имя атлета и страну за которую он выступал.\nfrom pyspark.sql.functions import col\ndf2=df.select(df.City,df.Edition, df['Athlete'], df.NOC).where((df.Medal=='Gold') & (df.Event=='100m')).orderBy(col('Edition').desc())\ndf2.show(100)",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-08T06:59:53+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=90",
+              "$$hashKey": "object:37300"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636310869501_963448698",
+      "id": "paragraph_1636310869501_963448698",
+      "dateCreated": "2021-11-07T18:47:49+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:26022",
+      "dateFinished": "2021-11-08T06:59:53+0000",
+      "dateStarted": "2021-11-08T06:59:53+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+--------------------+-------+--------------------+---+\n|                City|Edition|             Athlete|NOC|\n+--------------------+-------+--------------------+---+\n|             Beijing|   2008|         BOLT, Usain|JAM|\n|             Beijing|   2008|  FRASER, Shelly-ann|JAM|\n|              Athens|   2004|      GATLIN, Justin|USA|\n|              Athens|   2004|  NESTERENKO, Yuliya|BLR|\n|              Sydney|   2000|     GREENE, Maurice|USA|\n|             Atlanta|   1996|        DEVERS, Gail|USA|\n|             Atlanta|   1996|     BAILEY, Donovan|CAN|\n|           Barcelona|   1992|   CHRISTIE, Linford|GBR|\n|           Barcelona|   1992|        DEVERS, Gail|USA|\n|               Seoul|   1988|         LEWIS, Carl|USA|\n|               Seoul|   1988|GRIFFITH-JOYNER, ...|USA|\n|         Los Angeles|   1984|         LEWIS, Carl|USA|\n|         Los Angeles|   1984|     ASHFORD, Evelyn|USA|\n|              Moscow|   1980|KONDRATIEVA, Liud...|URS|\n|              Moscow|   1980|        WELLS, Allan|GBR|\n|            Montreal|   1976|    CRAWFORD, Hasely|TRI|\n|            Montreal|   1976|RICHTER-IRRGANG, ...|FRG|\n|              Munich|   1972|      BORZOV, Valery|URS|\n|              Munich|   1972|     STECHER, Renate|GDR|\n|              Mexico|   1968|    HINES, James Ray|USA|\n|              Mexico|   1968|        TYUS, Wyomia|USA|\n|               Tokyo|   1964|       HAYES, Robert|USA|\n|               Tokyo|   1964|        TYUS, Wyomia|USA|\n|                Rome|   1960|         HARY, Armin|EUA|\n|                Rome|   1960|      RUDOLPH, Wilma|USA|\n|Melbourne / Stock...|   1956|     CUTHBERT, Betty|AUS|\n|Melbourne / Stock...|   1956|MORROW, Robert Jo...|USA|\n|            Helsinki|   1952|     REMIGINO, Lindy|USA|\n|            Helsinki|   1952|   JACKSON, Marjorie|AUS|\n|              London|   1948|BLANKERS-KOEN, Fanny|NED|\n|              London|   1948|   DILLARD, Harrison|USA|\n|              Berlin|   1936|STEPHENS, Helen H...|USA|\n|              Berlin|   1936|        OWENS, Jesse|USA|\n|         Los Angeles|   1932|        TOLAN, Eddie|USA|\n|         Los Angeles|   1932|WALASIEWICZ, Stan...|POL|\n|           Amsterdam|   1928|     WILLIAMS, Percy|CAN|\n|           Amsterdam|   1928| ROBINSON, Elizabeth|USA|\n|               Paris|   1924|    ABRAHAMS, Harold|GBR|\n|             Antwerp|   1920|    PADDOCK, Charles|USA|\n|           Stockholm|   1912|        CRAIG, Ralph|USA|\n|              London|   1908|    WALKER, Reginald|RSA|\n|            St Louis|   1904|        HAHN, Archie|USA|\n|               Paris|   1900|     JARVIS, Francis|USA|\n|              Athens|   1896|       BURKE, Thomas|USA|\n+--------------------+-------+--------------------+---+\n\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%sql\n-- Используя SQL, постройте график число всех медалей выйгранных на каждой олимпиаде.\nSELECT Edition,Count(*) cnt FROM olympics GROUP BY Edition\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-07T19:40:23+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "lineChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Edition": "string",
+                      "cnt": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "lineChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "Edition",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "cnt",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=59",
+              "$$hashKey": "object:31582"
+            },
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=60",
+              "$$hashKey": "object:31583"
+            },
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=61",
+              "$$hashKey": "object:31584"
+            },
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=62",
+              "$$hashKey": "object:31585"
+            },
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=63",
+              "$$hashKey": "object:31586"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636312104653_1241191106",
+      "id": "paragraph_1636312104653_1241191106",
+      "dateCreated": "2021-11-07T19:08:24+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:28556",
+      "dateFinished": "2021-11-07T19:40:11+0000",
+      "dateStarted": "2021-11-07T19:40:10+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Edition\tcnt\n1896\t151\n1924\t884\n1908\t804\n1952\t889\n1956\t885\n1988\t1546\n1968\t1031\n1904\t470\n2004\t1998\n1932\t615\n1996\t1859\n1960\t882\n1912\t885\n1936\t875\n1920\t1298\n1980\t1387\n1972\t1185\n1992\t1705\n1984\t1459\n1964\t1010\n2000\t2015\n1976\t1305\n2008\t2042\n1948\t814\n1900\t512\n1928\t710\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%pyspark\n# Создайте список показывающий число всех медалей выйгранных каждой страной в течение всей истории олимпийских игр. Для каждой страны, необходимо показать год первой и последней заработанной медали.\nimport pyspark.sql.functions as f\ndf2= df.groupBy(\"NOC\")\\\n    .agg(f.max(df[\"Edition\"]).alias(\"max_year\"),\n         f.min(df[\"Edition\"]).alias(\"min_year\"),\n         f.count(df[\"Edition\"]).alias(\"cnt\"))\\\n         .orderBy(f.col('cnt').desc(), f.col('max_year').desc())\ndf2.show(100)",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-07T20:03:12+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=81",
+              "$$hashKey": "object:32420"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636313998300_1763428365",
+      "id": "paragraph_1636313998300_1763428365",
+      "dateCreated": "2021-11-07T19:39:58+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:29843",
+      "dateFinished": "2021-11-07T20:03:13+0000",
+      "dateStarted": "2021-11-07T20:03:12+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+---+--------+--------+----+\n|NOC|max_year|min_year| cnt|\n+---+--------+--------+----+\n|USA|    2008|    1896|4335|\n|URS|    1988|    1952|2049|\n|GBR|    2008|    1896|1594|\n|FRA|    2008|    1896|1314|\n|ITA|    2008|    1900|1228|\n|GER|    2008|    1896|1211|\n|AUS|    2008|    1896|1075|\n|HUN|    2008|    1896|1053|\n|SWE|    2008|    1900|1021|\n|GDR|    1988|    1968| 825|\n|NED|    2008|    1900| 782|\n|JPN|    2008|    1920| 704|\n|CHN|    2008|    1984| 679|\n|RUS|    2008|    1996| 638|\n|ROU|    2008|    1924| 624|\n|CAN|    2008|    1900| 592|\n|NOR|    2008|    1900| 537|\n|POL|    2008|    1924| 499|\n|DEN|    2008|    1896| 491|\n|FRG|    1988|    1968| 490|\n|KOR|    2008|    1948| 466|\n|FIN|    2008|    1908| 451|\n|YUG|    2000|    1924| 435|\n|BEL|    2008|    1900| 408|\n|CUB|    2008|    1900| 395|\n|ESP|    2008|    1900| 377|\n|SUI|    2008|    1896| 376|\n|BRA|    2008|    1920| 372|\n|BUL|    2008|    1952| 331|\n|TCH|    1992|    1920| 329|\n|EUA|    1964|    1956| 260|\n|ARG|    2008|    1924| 239|\n|EUN|    1992|    1992| 223|\n|IND|    2008|    1900| 178|\n|NZL|    2008|    1920| 164|\n|UKR|    2008|    1996| 148|\n|AUT|    2008|    1896| 146|\n|GRE|    2008|    1896| 145|\n|PAK|    1992|    1956| 121|\n|JAM|    2008|    1948| 102|\n|RSA|    2008|    1908|  97|\n|BLR|    2008|    1996|  92|\n|NGR|    2008|    1964|  84|\n|TUR|    2008|    1936|  82|\n|KEN|    2008|    1964|  81|\n|MEX|    2008|    1932|  80|\n|CRO|    2008|    1992|  79|\n|URU|    2000|    1924|  76|\n|PRK|    2008|    1972|  52|\n|LTU|    2008|    1992|  50|\n|IRI|    2008|    1948|  48|\n|ZZX|    1904|    1896|  48|\n|TPE|    2008|    1960|  42|\n|CZE|    2008|    1996|  41|\n|KAZ|    2008|    1996|  39|\n|ETH|    2008|    1960|  38|\n|EST|    2008|    1920|  37|\n|INA|    2008|    1988|  35|\n|CHI|    2008|    1928|  33|\n|POR|    2008|    1924|  31|\n|SVK|    2008|    1996|  29|\n|ANZ|    1912|    1908|  29|\n|IRL|    2008|    1928|  24|\n|EGY|    2008|    1928|  24|\n|ZIM|    2008|    1980|  23|\n|BAH|    2008|    1956|  23|\n|CMR|    2008|    1968|  22|\n|SLO|    2008|    1992|  21|\n|MAR|    2008|    1960|  21|\n|THA|    2008|    1976|  21|\n|TRI|    2008|    1948|  20|\n|MGL|    2008|    1968|  19|\n|GEO|    2008|    1996|  18|\n|LAT|    2008|    1932|  17|\n|UZB|    2008|    1996|  17|\n|ISL|    2008|    1956|  17|\n|PAR|    2004|    2004|  17|\n|RU1|    1912|    1908|  17|\n|AZE|    2008|    1996|  16|\n|GHA|    1992|    1960|  16|\n|SRB|    2008|    2008|  15|\n|PER|    1992|    1948|  15|\n|ALG|    2008|    1984|  14|\n|SCG|    2004|    2004|  14|\n|VEN|    2008|    1952|  11|\n|COL|    2008|    1972|  11|\n|ARM|    2008|    1996|   9|\n|PHI|    1996|    1928|   9|\n|HAI|    1928|    1924|   8|\n|TUN|    2008|    1964|   7|\n|ISR|    2008|    1992|   7|\n|BOH|    1908|    1900|   7|\n|MAS|    2008|    1992|   6|\n|MDA|    2008|    1996|   6|\n|PUR|    1996|    1948|   6|\n|UGA|    1996|    1968|   6|\n|BWI|    1960|    1960|   5|\n|DOM|    2008|    1984|   4|\n|SIN|    2008|    1960|   4|\n|CRC|    2000|    1988|   4|\n+---+--------+--------+----+\nonly showing top 100 rows\n\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%sql\n-- Постройте график числа золотых медалей выйгранных США мужчинами и женщинами в атлетике?\nSELECT * FROM olympics WHERE Medal=\"Gold\" and Discipline=\"Athletics\" and NOC='USA'\n\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-07T20:13:54+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "pieChart",
+              "height": 300,
+              "optionOpen": true,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "City": "string",
+                      "Edition": "string",
+                      "Sport": "string",
+                      "Discipline": "string",
+                      "Athlete": "string",
+                      "NOC": "string",
+                      "Gender": "string",
+                      "Event": "string",
+                      "Event_gender": "string",
+                      "Medal": "string"
+                    },
+                    "updated": true
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "Gender",
+                  "index": 6,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "Medal",
+                  "index": 9,
+                  "aggr": "count"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=83",
+              "$$hashKey": "object:34372"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636314677065_70725197",
+      "id": "paragraph_1636314677065_70725197",
+      "dateCreated": "2021-11-07T19:51:17+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:31655",
+      "dateFinished": "2021-11-07T20:13:39+0000",
+      "dateStarted": "2021-11-07T20:13:39+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "City\tEdition\tSport\tDiscipline\tAthlete\tNOC\tGender\tEvent\tEvent_gender\tMedal\nAthens\t1896\tAthletics\tAthletics\tBURKE, Thomas\tUSA\tMen\t100m\tM\tGold\nAthens\t1896\tAthletics\tAthletics\tCURTIS, Thomas\tUSA\tMen\t110m hurdles\tM\tGold\nAthens\t1896\tAthletics\tAthletics\tBURKE, Thomas\tUSA\tMen\t400m\tM\tGold\nAthens\t1896\tAthletics\tAthletics\tGARRETT, Robert\tUSA\tMen\tdiscus throw\tM\tGold\nAthens\t1896\tAthletics\tAthletics\tCLARK, Ellery\tUSA\tMen\thigh jump\tM\tGold\nAthens\t1896\tAthletics\tAthletics\tCLARK, Ellery\tUSA\tMen\tlong jump\tM\tGold\nAthens\t1896\tAthletics\tAthletics\tHOYT, William Welles\tUSA\tMen\tpole vault\tM\tGold\nAthens\t1896\tAthletics\tAthletics\tGARRETT, Robert\tUSA\tMen\tshot put\tM\tGold\nAthens\t1896\tAthletics\tAthletics\tCONNOLLY, James\tUSA\tMen\ttriple jump\tM\tGold\nParis\t1900\tAthletics\tAthletics\tJARVIS, Francis\tUSA\tMen\t100m\tM\tGold\nParis\t1900\tAthletics\tAthletics\tKRAENZLEIN, Alvin\tUSA\tMen\t110m hurdles\tM\tGold\nParis\t1900\tAthletics\tAthletics\tTEWKSBURY, Walter B. John\tUSA\tMen\t200m\tM\tGold\nParis\t1900\tAthletics\tAthletics\tKRAENZLEIN, Alvin\tUSA\tMen\t200m hurdles\tM\tGold\nParis\t1900\tAthletics\tAthletics\tLONG, Maxwell W.Maxey\tUSA\tMen\t400m\tM\tGold\nParis\t1900\tAthletics\tAthletics\tTEWKSBURY, Walter B. John\tUSA\tMen\t400m hurdles\tM\tGold\nParis\t1900\tAthletics\tAthletics\tKRAENZLEIN, Alvin\tUSA\tMen\t60m\tM\tGold\nParis\t1900\tAthletics\tAthletics\tFLANAGAN, John Jesus\tUSA\tMen\thammer throw\tM\tGold\nParis\t1900\tAthletics\tAthletics\tBAXTER, Irving\tUSA\tMen\thigh jump\tM\tGold\nParis\t1900\tAthletics\tAthletics\tEWRY, Ray\tUSA\tMen\thigh jump, standing\tM\tGold\nParis\t1900\tAthletics\tAthletics\tKRAENZLEIN, Alvin\tUSA\tMen\tlong jump\tM\tGold\nParis\t1900\tAthletics\tAthletics\tEWRY, Ray\tUSA\tMen\tlong jump, standing\tM\tGold\nParis\t1900\tAthletics\tAthletics\tBAXTER, Irving\tUSA\tMen\tpole vault\tM\tGold\nParis\t1900\tAthletics\tAthletics\tSHELDON, Richard\tUSA\tMen\tshot put\tM\tGold\nParis\t1900\tAthletics\tAthletics\tPRINSTEIN, Meyer\tUSA\tMen\ttriple jump\tM\tGold\nParis\t1900\tAthletics\tAthletics\tEWRY, Ray\tUSA\tMen\ttriple jump, standing\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tHAHN, Archie\tUSA\tMen\t100m\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tSCHULE, Frederick\tUSA\tMen\t110m hurdles\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tLIGHTBODY, James\tUSA\tMen\t1500m\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tHAHN, Archie\tUSA\tMen\t200m\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tHILLMAN, Harry\tUSA\tMen\t200m hurdles\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tLIGHTBODY, James\tUSA\tMen\t3000m steeplechase\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tHILLMAN, Harry\tUSA\tMen\t400m\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tHILLMAN, Harry\tUSA\tMen\t400m hurdles\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tMUNSON, David Curtis\tUSA\tMen\t4miles team\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tNEWTON, Arthur\tUSA\tMen\t4miles team\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tPILGRIM, Paul Harry\tUSA\tMen\t4miles team\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tUNDERWOOD, George\tUSA\tMen\t4miles team\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tVALENTINE, Howard\tUSA\tMen\t4miles team\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tHAHN, Archie\tUSA\tMen\t60m\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tLIGHTBODY, James\tUSA\tMen\t800m\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tSHERIDAN, Martin\tUSA\tMen\tdiscus throw\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tFLANAGAN, John Jesus\tUSA\tMen\thammer throw\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tJONES, Samuel\tUSA\tMen\thigh jump\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tEWRY, Ray\tUSA\tMen\thigh jump, standing\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tPRINSTEIN, Meyer\tUSA\tMen\tlong jump\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tEWRY, Ray\tUSA\tMen\tlong jump, standing\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tHICKS, Thomas\tUSA\tMen\tmarathon\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tDVORAK, Charles\tUSA\tMen\tpole vault\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tROSE, Ralph\tUSA\tMen\tshot put\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tEMMERICH, Max\tUSA\tMen\ttriathlon (long jump / shot put / 100 yards)\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tPRINSTEIN, Meyer\tUSA\tMen\ttriple jump\tM\tGold\nSt Louis\t1904\tAthletics\tAthletics\tEWRY, Ray\tUSA\tMen\ttriple jump, standing\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tSMITHSON, Forrest\tUSA\tMen\t110m hurdles\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tSHEPPARD, Melvin\tUSA\tMen\t1500m\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tBACON, Charles Joseph\tUSA\tMen\t400m hurdles\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tCARTMELL, John Nathaniel\tUSA\tMen\t4x400m relay\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tHAMILTON, William Frank\tUSA\tMen\t4x400m relay\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tSHEPPARD, Melvin\tUSA\tMen\t4x400m relay\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tTAYLOR, John Baxter\tUSA\tMen\t4x400m relay\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tSHEPPARD, Melvin\tUSA\tMen\t800m\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tSHERIDAN, Martin\tUSA\tMen\tdiscus throw\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tSHERIDAN, Martin\tUSA\tMen\tdiscus throw ancient style\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tFLANAGAN, John Jesus\tUSA\tMen\thammer throw\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tPORTER, Harry Franklin\tUSA\tMen\thigh jump\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tEWRY, Ray\tUSA\tMen\thigh jump, standing\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tIRONS, Francis C.\tUSA\tMen\tlong jump\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tEWRY, Ray\tUSA\tMen\tlong jump, standing\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tHAYES, John Joseph\tUSA\tMen\tmarathon\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tCOOKE, Edward Tiffin\tUSA\tMen\tpole vault\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tGILBERT, Alfred Carleten\tUSA\tMen\tpole vault\tM\tGold\nLondon\t1908\tAthletics\tAthletics\tROSE, Ralph\tUSA\tMen\tshot put\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tCRAIG, Ralph\tUSA\tMen\t100m\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tKELLY, Frederick\tUSA\tMen\t110m hurdles\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tCRAIG, Ralph\tUSA\tMen\t200m\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tBERNA, Tell Schirnding\tUSA\tMen\t3000m team\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tBONHAG, George V.\tUSA\tMen\t3000m team\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tKIVIAT, Abel\tUSA\tMen\t3000m team\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tSCOTT, Henry Louis\tUSA\tMen\t3000m team\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tTABER, Norman\tUSA\tMen\t3000m team\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tREIDPATH, Charles Decker\tUSA\tMen\t400m\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tLINDBERG, Edward F.\tUSA\tMen\t4x400m relay\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tMEREDITH, James Edwin\tUSA\tMen\t4x400m relay\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tREIDPATH, Charles Decker\tUSA\tMen\t4x400m relay\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tSHEPPARD, Melvin\tUSA\tMen\t4x400m relay\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tMEREDITH, James Edwin\tUSA\tMen\t800m\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tTHORPE, Jim\tUSA\tMen\tdecathlon\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tMCGRATH, Matthew J.\tUSA\tMen\thammer throw\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tRICHARDS, Alma Wilfred\tUSA\tMen\thigh jump\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tADAMS, Platt\tUSA\tMen\thigh jump, standing\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tGUTTERSON, Albert Lovejoy\tUSA\tMen\tlong jump\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tTHORPE, Jim\tUSA\tMen\tpentathlon\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tBABCOCK, Harry Stoddard\tUSA\tMen\tpole vault\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tMCDONALD, Patrick\tUSA\tMen\tshot put\tM\tGold\nStockholm\t1912\tAthletics\tAthletics\tROSE, Ralph\tUSA\tMen\tshot put, both hands\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tPADDOCK, Charles\tUSA\tMen\t100m\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tWOODRING, Allen\tUSA\tMen\t200m\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tBROWN, Horace Hallock\tUSA\tMen\t3000m team\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tDRESSER, Ivan\tUSA\tMen\t3000m team\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tSCHARDT, Arlie Alfred\tUSA\tMen\t3000m team\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tLOOMIS, Frank\tUSA\tMen\t400m hurdles\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tKIRKSEY, Morris\tUSA\tMen\t4x100m relay\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tMURCHISON, Loren\tUSA\tMen\t4x100m relay\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tPADDOCK, Charles\tUSA\tMen\t4x100m relay\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tSCHOLZ, Jackson\tUSA\tMen\t4x100m relay\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tMCDONALD, Patrick\tUSA\tMen\t56lb weight throw (25.4kg)\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tRYAN, Patrick\tUSA\tMen\thammer throw\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tLANDON, Richmond\tUSA\tMen\thigh jump\tM\tGold\nAntwerp\t1920\tAthletics\tAthletics\tFOSS, Frank\tUSA\tMen\tpole vault\tM\tGold\nParis\t1924\tAthletics\tAthletics\tKINSEY, Daniel\tUSA\tMen\t110m hurdles\tM\tGold\nParis\t1924\tAthletics\tAthletics\tSCHOLZ, Jackson\tUSA\tMen\t200m\tM\tGold\nParis\t1924\tAthletics\tAthletics\tTAYLOR, Frederick Morgan\tUSA\tMen\t400m hurdles\tM\tGold\nParis\t1924\tAthletics\tAthletics\tCLARKE, Louis Alfred\tUSA\tMen\t4x100m relay\tM\tGold\nParis\t1924\tAthletics\tAthletics\tHUSSEY, Francis\tUSA\tMen\t4x100m relay\tM\tGold\nParis\t1924\tAthletics\tAthletics\tLECONEY, Jeremiah Alfred\tUSA\tMen\t4x100m relay\tM\tGold\nParis\t1924\tAthletics\tAthletics\tMURCHISON, Loren\tUSA\tMen\t4x100m relay\tM\tGold\nParis\t1924\tAthletics\tAthletics\tCOCHRANE, Commodore\tUSA\tMen\t4x400m relay\tM\tGold\nParis\t1924\tAthletics\tAthletics\tHELFFRICH, Alan\tUSA\tMen\t4x400m relay\tM\tGold\nParis\t1924\tAthletics\tAthletics\tMACDONALD, J. Oliver\tUSA\tMen\t4x400m relay\tM\tGold\nParis\t1924\tAthletics\tAthletics\tSTEPHENSON, William\tUSA\tMen\t4x400m relay\tM\tGold\nParis\t1924\tAthletics\tAthletics\tOSBORN, Harold Marion\tUSA\tMen\tdecathlon\tM\tGold\nParis\t1924\tAthletics\tAthletics\tHOUSER, Lemuel Clarence\tUSA\tMen\tdiscus throw\tM\tGold\nParis\t1924\tAthletics\tAthletics\tTOOTELL, Frederick Delmont\tUSA\tMen\thammer throw\tM\tGold\nParis\t1924\tAthletics\tAthletics\tOSBORN, Harold Marion\tUSA\tMen\thigh jump\tM\tGold\nParis\t1924\tAthletics\tAthletics\tHUBBARD, William De Hart\tUSA\tMen\tlong jump\tM\tGold\nParis\t1924\tAthletics\tAthletics\tBARNES, Lee\tUSA\tMen\tpole vault\tM\tGold\nParis\t1924\tAthletics\tAthletics\tHOUSER, Lemuel Clarence\tUSA\tMen\tshot put\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tROBINSON, Elizabeth\tUSA\tWomen\t100m\tW\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tBARBUTI, Raymond James\tUSA\tMen\t400m\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tBORAH, Charles Edward\tUSA\tMen\t4x100m relay\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tQUINN, James F.\tUSA\tMen\t4x100m relay\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tRUSSELL, Henry Argue\tUSA\tMen\t4x100m relay\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tWYKOFF, Frank Clifford\tUSA\tMen\t4x100m relay\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tALDERMAN, Frederick Pitt\tUSA\tMen\t4x400m relay\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tBAIRD, George Hetzel\tUSA\tMen\t4x400m relay\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tBARBUTI, Raymond James\tUSA\tMen\t4x400m relay\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tSPENCER, Emerson Lane\tUSA\tMen\t4x400m relay\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tHOUSER, Lemuel Clarence\tUSA\tMen\tdiscus throw\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tKING, Robert Wade\tUSA\tMen\thigh jump\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tHAMM, Edward Barton\tUSA\tMen\tlong jump\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tCARR, Sabin William\tUSA\tMen\tpole vault\tM\tGold\nAmsterdam\t1928\tAthletics\tAthletics\tKUCK, John H.\tUSA\tMen\tshot put\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tTOLAN, Eddie\tUSA\tMen\t100m\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tSALING, George J. Jr.\tUSA\tMen\t110m hurdles\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tTOLAN, Eddie\tUSA\tMen\t200m\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tCARR, William Arthur\tUSA\tMen\t400m\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tDYER, Hector Monroe\tUSA\tMen\t4x100m relay\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tKIESEL, Robert Allan\tUSA\tMen\t4x100m relay\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tTOPPINO, Martin Emmett\tUSA\tMen\t4x100m relay\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tWYKOFF, Frank Clifford\tUSA\tMen\t4x100m relay\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tCAREW, Mary Louise\tUSA\tWomen\t4x100m relay\tW\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tFURTSCH, Evelyn\tUSA\tWomen\t4x100m relay\tW\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tROGERS, Annette Joan\tUSA\tWomen\t4x100m relay\tW\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tVON BREMEN, Wilhelmina\tUSA\tWomen\t4x100m relay\tW\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tABLOWICH, Edgar Allen\tUSA\tMen\t4x400m relay\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tCARR, William Arthur\tUSA\tMen\t4x400m relay\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tFUQUA, Ivan William\tUSA\tMen\t4x400m relay\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tWARNER, Karl De Witt\tUSA\tMen\t4x400m relay\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tDIDRIKSON, Mildred\tUSA\tWomen\t80m hurdles\tW\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tBAUSCH, James Aloysius Bernard\tUSA\tMen\tdecathlon\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tANDERSON, John Franklin\tUSA\tMen\tdiscus throw\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tCOPELAND, Lillian\tUSA\tWomen\tdiscus throw\tW\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tSHILEY, Jean\tUSA\tWomen\thigh jump\tW\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tDIDRIKSON, Mildred\tUSA\tWomen\tjavelin throw\tW\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tGORDON, Edward Lansing\tUSA\tMen\tlong jump\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tMILLER, William Waring\tUSA\tMen\tpole vault\tM\tGold\nLos Angeles\t1932\tAthletics\tAthletics\tSEXTON, Leo Joseph\tUSA\tMen\tshot put\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tOWENS, Jesse\tUSA\tMen\t100m\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tSTEPHENS, Helen Herring\tUSA\tWomen\t100m\tW\tGold\nBerlin\t1936\tAthletics\tAthletics\tTOWNS, Forrest Grady\tUSA\tMen\t110m hurdles\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tOWENS, Jesse\tUSA\tMen\t200m\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tWILLIAMS, Archibald Franklin\tUSA\tMen\t400m\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tHARDIN, Glenn Foster\tUSA\tMen\t400m hurdles\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tDRAPER, Foy\tUSA\tMen\t4x100m relay\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tMETCALFE, Ralph\tUSA\tMen\t4x100m relay\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tOWENS, Jesse\tUSA\tMen\t4x100m relay\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tWYKOFF, Frank Clifford\tUSA\tMen\t4x100m relay\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tBLAND, Harriett Claiborne\tUSA\tWomen\t4x100m relay\tW\tGold\nBerlin\t1936\tAthletics\tAthletics\tROBINSON, Elizabeth\tUSA\tWomen\t4x100m relay\tW\tGold\nBerlin\t1936\tAthletics\tAthletics\tROGERS, Annette Joan\tUSA\tWomen\t4x100m relay\tW\tGold\nBerlin\t1936\tAthletics\tAthletics\tSTEPHENS, Helen Herring\tUSA\tWomen\t4x100m relay\tW\tGold\nBerlin\t1936\tAthletics\tAthletics\tWOODRUFF, John Youie\tUSA\tMen\t800m\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tMORRIS, Glenn Edward\tUSA\tMen\tdecathlon\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tCARPENTER, William Kenneth\tUSA\tMen\tdiscus throw\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tJOHNSON, Cornelius Cooper\tUSA\tMen\thigh jump\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tOWENS, Jesse\tUSA\tMen\tlong jump\tM\tGold\nBerlin\t1936\tAthletics\tAthletics\tMEADOWS, Earle Elmer\tUSA\tMen\tpole vault\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tDILLARD, Harrison\tUSA\tMen\t100m\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tPORTER, William Franklin III\tUSA\tMen\t110m hurdles\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tPATTON, Melvin Emery\tUSA\tMen\t200m\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tCOCHRAN, Roy Braxton\tUSA\tMen\t400m hurdles\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tDILLARD, Harrison\tUSA\tMen\t4x100m relay\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tEWELL, Harold Norwood\tUSA\tMen\t4x100m relay\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tPATTON, Melvin Emery\tUSA\tMen\t4x100m relay\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tWRIGHT, Lorenzo Christopher\tUSA\tMen\t4x100m relay\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tBOURLAND, Clifford Frederick\tUSA\tMen\t4x400m relay\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tCOCHRAN, Roy Braxton\tUSA\tMen\t4x400m relay\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tHARNDEN, Arthur Harold\tUSA\tMen\t4x400m relay\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tWHITFIELD, Malvin Groston\tUSA\tMen\t4x400m relay\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tWHITFIELD, Malvin Groston\tUSA\tMen\t800m\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tMATHIAS, Robert\tUSA\tMen\tdecathlon\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tCOACHMAN, Alice Marie\tUSA\tWomen\thigh jump\tW\tGold\nLondon\t1948\tAthletics\tAthletics\tSTEELE, William Samuel\tUSA\tMen\tlong jump\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tSMITH, Owen Guinn\tUSA\tMen\tpole vault\tM\tGold\nLondon\t1948\tAthletics\tAthletics\tTHOMPSON, Wilbur Marvin\tUSA\tMen\tshot put\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tREMIGINO, Lindy\tUSA\tMen\t100m\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tDILLARD, Harrison\tUSA\tMen\t110m hurdles\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tSTANFIELD, Andrew William\tUSA\tMen\t200m\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tASHENFELTER, Horace III\tUSA\tMen\t3000m steeplechase\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tMOORE, Charles Hewes Jr.\tUSA\tMen\t400m hurdles\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tDILLARD, Harrison\tUSA\tMen\t4x100m relay\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tREMIGINO, Lindy\tUSA\tMen\t4x100m relay\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tSMITH, Finis Dean\tUSA\tMen\t4x100m relay\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tSTANFIELD, Andrew William\tUSA\tMen\t4x100m relay\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tFAGGS, Mae Heriwentha\tUSA\tWomen\t4x100m relay\tW\tGold\nHelsinki\t1952\tAthletics\tAthletics\tHARDY, Catherine\tUSA\tWomen\t4x100m relay\tW\tGold\nHelsinki\t1952\tAthletics\tAthletics\tJONES, Barbara Pearl\tUSA\tWomen\t4x100m relay\tW\tGold\nHelsinki\t1952\tAthletics\tAthletics\tMOREAU, Janet Theresa\tUSA\tWomen\t4x100m relay\tW\tGold\nHelsinki\t1952\tAthletics\tAthletics\tWHITFIELD, Malvin Groston\tUSA\tMen\t800m\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tMATHIAS, Robert\tUSA\tMen\tdecathlon\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tINESS, Simeon Garland\tUSA\tMen\tdiscus throw\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tDAVIS, Walter Francis\tUSA\tMen\thigh jump\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tYOUNG, Cyrus C. Jr.\tUSA\tMen\tjavelin throw\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tBIFFLE, Jerome Cousins\tUSA\tMen\tlong jump\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tRICHARDS, Robert\tUSA\tMen\tpole vault\tM\tGold\nHelsinki\t1952\tAthletics\tAthletics\tO, William Patrick Jr.\tUSA\tMen\tshot put\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tMORROW, Robert Joseph\tUSA\tMen\t100m\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tCALHOUN, Lee\tUSA\tMen\t110m hurdles\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tMORROW, Robert Joseph\tUSA\tMen\t200m\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tJENKINS, Charles Lamont\tUSA\tMen\t400m\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tDAVIS, Glenn Ashby\tUSA\tMen\t400m hurdles\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tBAKER, Walter Thane\tUSA\tMen\t4x100m relay\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tKING, Leamon\tUSA\tMen\t4x100m relay\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tMORROW, Robert Joseph\tUSA\tMen\t4x100m relay\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tMURCHISON, Ira James\tUSA\tMen\t4x100m relay\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tCOURTNEY, Thomas William\tUSA\tMen\t4x400m relay\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tJENKINS, Charles Lamont\tUSA\tMen\t4x400m relay\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tJONES, Louis Woodard III\tUSA\tMen\t4x400m relay\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tMASHBURN, Jesse William\tUSA\tMen\t4x400m relay\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tCOURTNEY, Thomas William\tUSA\tMen\t800m\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tCAMPBELL, Milton Gray\tUSA\tMen\tdecathlon\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tOERTER, Alfred\tUSA\tMen\tdiscus throw\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tCONNOLLY, Harold Vincent\tUSA\tMen\thammer throw\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tDUMAS, Charles Everett\tUSA\tMen\thigh jump\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tMCDANIEL, Mildred Louise\tUSA\tWomen\thigh jump\tW\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tBELL, Gregory Curtis\tUSA\tMen\tlong jump\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tRICHARDS, Robert\tUSA\tMen\tpole vault\tM\tGold\nMelbourne / Stockholm\t1956\tAthletics\tAthletics\tO, William Patrick Jr.\tUSA\tMen\tshot put\tM\tGold\nRome\t1960\tAthletics\tAthletics\tRUDOLPH, Wilma\tUSA\tWomen\t100m\tW\tGold\nRome\t1960\tAthletics\tAthletics\tCALHOUN, Lee\tUSA\tMen\t110m hurdles\tM\tGold\nRome\t1960\tAthletics\tAthletics\tRUDOLPH, Wilma\tUSA\tWomen\t200m\tW\tGold\nRome\t1960\tAthletics\tAthletics\tDAVIS, Otis Crandall\tUSA\tMen\t400m\tM\tGold\nRome\t1960\tAthletics\tAthletics\tDAVIS, Glenn Ashby\tUSA\tMen\t400m hurdles\tM\tGold\nRome\t1960\tAthletics\tAthletics\tHUDSON, Martha B.\tUSA\tWomen\t4x100m relay\tW\tGold\nRome\t1960\tAthletics\tAthletics\tJONES, Barbara Pearl\tUSA\tWomen\t4x100m relay\tW\tGold\nRome\t1960\tAthletics\tAthletics\tRUDOLPH, Wilma\tUSA\tWomen\t4x100m relay\tW\tGold\nRome\t1960\tAthletics\tAthletics\tWILLIAMS, Lucinda\tUSA\tWomen\t4x100m relay\tW\tGold\nRome\t1960\tAthletics\tAthletics\tDAVIS, Glenn Ashby\tUSA\tMen\t4x400m relay\tM\tGold\nRome\t1960\tAthletics\tAthletics\tDAVIS, Otis Crandall\tUSA\tMen\t4x400m relay\tM\tGold\nRome\t1960\tAthletics\tAthletics\tYERMAN, John Lloyd\tUSA\tMen\t4x400m relay\tM\tGold\nRome\t1960\tAthletics\tAthletics\tYOUNG, Earl Verdelle\tUSA\tMen\t4x400m relay\tM\tGold\nRome\t1960\tAthletics\tAthletics\tJOHNSON, Rafer Lewis\tUSA\tMen\tdecathlon\tM\tGold\nRome\t1960\tAthletics\tAthletics\tOERTER, Alfred\tUSA\tMen\tdiscus throw\tM\tGold\nRome\t1960\tAthletics\tAthletics\tBOSTON, Ralph Harold\tUSA\tMen\tlong jump\tM\tGold\nRome\t1960\tAthletics\tAthletics\tBRAGG, Donald George\tUSA\tMen\tpole vault\tM\tGold\nRome\t1960\tAthletics\tAthletics\tNIEDER, William Henry\tUSA\tMen\tshot put\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tMILLS, William\tUSA\tMen\t10000m\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tHAYES, Robert\tUSA\tMen\t100m\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tTYUS, Wyomia\tUSA\tWomen\t100m\tW\tGold\nTokyo\t1964\tAthletics\tAthletics\tJONES, Hayes\tUSA\tMen\t110m hurdles\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tCARR, Henry\tUSA\tMen\t200m\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tMCGUIRE, Edith Marie\tUSA\tWomen\t200m\tW\tGold\nTokyo\t1964\tAthletics\tAthletics\tLARRABEE, Michael Denny\tUSA\tMen\t400m\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tCAWLEY, Warren (Rex) Jay\tUSA\tMen\t400m hurdles\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tASHWORTH, Gerald Howard\tUSA\tMen\t4x100m relay\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tDRAYTON, Otis Paul\tUSA\tMen\t4x100m relay\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tHAYES, Robert\tUSA\tMen\t4x100m relay\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tSTEBBINS, Richard Vaughn\tUSA\tMen\t4x100m relay\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tCARR, Henry\tUSA\tMen\t4x400m relay\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tCASSELL, Ollan Conley\tUSA\tMen\t4x400m relay\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tLARRABEE, Michael Denny\tUSA\tMen\t4x400m relay\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tWILLIAMS, Ulis C.\tUSA\tMen\t4x400m relay\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tSCHUL, Robert Keyser\tUSA\tMen\t5000m\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tOERTER, Alfred\tUSA\tMen\tdiscus throw\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tHANSEN, Frederick Morgan\tUSA\tMen\tpole vault\tM\tGold\nTokyo\t1964\tAthletics\tAthletics\tLONG, Dallas Crutcher III\tUSA\tMen\tshot put\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tHINES, James Ray\tUSA\tMen\t100m\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tTYUS, Wyomia\tUSA\tWomen\t100m\tW\tGold\nMexico\t1968\tAthletics\tAthletics\tDAVENPORT, Willie\tUSA\tMen\t110m hurdles\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tSMITH, Thomas C.\tUSA\tMen\t200m\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tEVANS, Lee Edward\tUSA\tMen\t400m\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tGREENE, Charles Edward\tUSA\tMen\t4x100m relay\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tHINES, James Ray\tUSA\tMen\t4x100m relay\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tPENDER, Melvin Jr.\tUSA\tMen\t4x100m relay\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tSMITH, Ronald Ray\tUSA\tMen\t4x100m relay\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tBAILES, Margaret Johnson\tUSA\tWomen\t4x100m relay\tW\tGold\nMexico\t1968\tAthletics\tAthletics\tFERRELL, Barbara Ann\tUSA\tWomen\t4x100m relay\tW\tGold\nMexico\t1968\tAthletics\tAthletics\tNETTER, Mildrette\tUSA\tWomen\t4x100m relay\tW\tGold\nMexico\t1968\tAthletics\tAthletics\tTYUS, Wyomia\tUSA\tWomen\t4x100m relay\tW\tGold\nMexico\t1968\tAthletics\tAthletics\tEVANS, Lee Edward\tUSA\tMen\t4x400m relay\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tFREEMAN, Ronald John III\tUSA\tMen\t4x400m relay\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tJAMES, George Lawrence\tUSA\tMen\t4x400m relay\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tMATTHEWS, Vincent Edward\tUSA\tMen\t4x400m relay\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tMANNING-JACKSON, Madeline\tUSA\tWomen\t800m\tW\tGold\nMexico\t1968\tAthletics\tAthletics\tTOOMEY, William Anthony\tUSA\tMen\tdecathlon\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tOERTER, Alfred\tUSA\tMen\tdiscus throw\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tFOSBURY, Richard Douglas\tUSA\tMen\thigh jump\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tBEAMON, Bob\tUSA\tMen\tlong jump\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tSEAGREN, Robert Lloyd\tUSA\tMen\tpole vault\tM\tGold\nMexico\t1968\tAthletics\tAthletics\tMATSON, James Randel\tUSA\tMen\tshot put\tM\tGold\nMunich\t1972\tAthletics\tAthletics\tMILBURN, Rodney Jr.\tUSA\tMen\t110m hurdles\tM\tGold\nMunich\t1972\tAthletics\tAthletics\tMATTHEWS, Vincent Edward\tUSA\tMen\t400m\tM\tGold\nMunich\t1972\tAthletics\tAthletics\tBLACK, Lawrence J.\tUSA\tMen\t4x100m relay\tM\tGold\nMunich\t1972\tAthletics\tAthletics\tHART, Edward James\tUSA\tMen\t4x100m relay\tM\tGold\nMunich\t1972\tAthletics\tAthletics\tTAYLOR, Robert\tUSA\tMen\t4x100m relay\tM\tGold\nMunich\t1972\tAthletics\tAthletics\tTINKER, Gerald A.\tUSA\tMen\t4x100m relay\tM\tGold\nMunich\t1972\tAthletics\tAthletics\tWOTTLE, David James\tUSA\tMen\t800m\tM\tGold\nMunich\t1972\tAthletics\tAthletics\tWILLIAMS, Randel Luvelle\tUSA\tMen\tlong jump\tM\tGold\nMunich\t1972\tAthletics\tAthletics\tSHORTER, Frank Charles\tUSA\tMen\tmarathon\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tMOSES, Edwin\tUSA\tMen\t400m hurdles\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tGLANCE, Harvey Edward\tUSA\tMen\t4x100m relay\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tHAMPTON, Millard Frank Jr.\tUSA\tMen\t4x100m relay\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tJONES, John Wesley\tUSA\tMen\t4x100m relay\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tRIDDICK, Steven Earl\tUSA\tMen\t4x100m relay\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tBROWN, Benjamin Gene\tUSA\tMen\t4x400m relay\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tFRAZIER, Herman Ronald\tUSA\tMen\t4x400m relay\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tNEWHOUSE, Frederick Vaughn\tUSA\tMen\t4x400m relay\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tPARKS, Maxwell Lander\tUSA\tMen\t4x400m relay\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tJENNER, William Bruce\tUSA\tMen\tdecathlon\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tWILKINS, Malcolm Maurice\tUSA\tMen\tdiscus throw\tM\tGold\nMontreal\t1976\tAthletics\tAthletics\tROBINSON, Arnie\tUSA\tMen\tlong jump\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tLEWIS, Carl\tUSA\tMen\t100m\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tASHFORD, Evelyn\tUSA\tWomen\t100m\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tFITZGERALD-BROWN, Benita\tUSA\tWomen\t100m hurdles\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tKINGDOM, Roger\tUSA\tMen\t110m hurdles\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tLEWIS, Carl\tUSA\tMen\t200m\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tBRISCO-HOOKS, Valerie Ann\tUSA\tWomen\t200m\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tBABERS, Alonzo C.\tUSA\tMen\t400m\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tBRISCO-HOOKS, Valerie Ann\tUSA\tWomen\t400m\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tMOSES, Edwin\tUSA\tMen\t400m hurdles\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tBROWN, Ronald James\tUSA\tMen\t4x100m relay\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tGRADDY, Samuel Louis\tUSA\tMen\t4x100m relay\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tLEWIS, Carl\tUSA\tMen\t4x100m relay\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tSMITH, Calvin\tUSA\tMen\t4x100m relay\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tASHFORD, Evelyn\tUSA\tWomen\t4x100m relay\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tBOLDEN, Jeanette\tUSA\tWomen\t4x100m relay\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tBROWN, Alice Regina\tUSA\tWomen\t4x100m relay\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tCHEESEBOROUGH, Chandra Danette\tUSA\tWomen\t4x100m relay\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tARMSTEAD, Raymond\tUSA\tMen\t4x400m relay\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tBABERS, Alonzo C.\tUSA\tMen\t4x400m relay\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tMCKAY, Antonio Ricardo\tUSA\tMen\t4x400m relay\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tNIX, Sunder L.\tUSA\tMen\t4x400m relay\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tBRISCO-HOOKS, Valerie Ann\tUSA\tWomen\t4x400m relay\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tCHEESEBOROUGH, Chandra Danette\tUSA\tWomen\t4x400m relay\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tHOWARD, Sherryl Frances\tUSA\tWomen\t4x400m relay\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tLEATHERWOOD-KING, Lillie Mae\tUSA\tWomen\t4x400m relay\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tLEWIS, Carl\tUSA\tMen\tlong jump\tM\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tBENOIT, Joan\tUSA\tWomen\tmarathon\tW\tGold\nLos Angeles\t1984\tAthletics\tAthletics\tJOYNER, Alfredrick Alphonzo\tUSA\tMen\ttriple jump\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tLEWIS, Carl\tUSA\tMen\t100m\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tGRIFFITH-JOYNER, Florence\tUSA\tWomen\t100m\tW\tGold\nSeoul\t1988\tAthletics\tAthletics\tKINGDOM, Roger\tUSA\tMen\t110m hurdles\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tDELOACH, Joseph Nathaniel Jr.\tUSA\tMen\t200m\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tGRIFFITH-JOYNER, Florence\tUSA\tWomen\t200m\tW\tGold\nSeoul\t1988\tAthletics\tAthletics\tLEWIS, Steve\tUSA\tMen\t400m\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tPHILLIPS, Andre Lamar\tUSA\tMen\t400m hurdles\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tASHFORD, Evelyn\tUSA\tWomen\t4x100m relay\tW\tGold\nSeoul\t1988\tAthletics\tAthletics\tBROWN, Alice Regina\tUSA\tWomen\t4x100m relay\tW\tGold\nSeoul\t1988\tAthletics\tAthletics\tECHOLS, Sheila\tUSA\tWomen\t4x100m relay\tW\tGold\nSeoul\t1988\tAthletics\tAthletics\tGRIFFITH-JOYNER, Florence\tUSA\tWomen\t4x100m relay\tW\tGold\nSeoul\t1988\tAthletics\tAthletics\tEVERETT, Daniel\tUSA\tMen\t4x400m relay\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tLEWIS, Steve\tUSA\tMen\t4x400m relay\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tREYNOLDS, Harry Butch .\tUSA\tMen\t4x400m relay\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tROBINZINE, Kevin Bernard\tUSA\tMen\t4x400m relay\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tJOYNER-KERSEE, Jackie\tUSA\tWomen\theptathlon\tW\tGold\nSeoul\t1988\tAthletics\tAthletics\tRITTER, Dorothy Louise\tUSA\tWomen\thigh jump\tW\tGold\nSeoul\t1988\tAthletics\tAthletics\tLEWIS, Carl\tUSA\tMen\tlong jump\tM\tGold\nSeoul\t1988\tAthletics\tAthletics\tJOYNER-KERSEE, Jackie\tUSA\tWomen\tlong jump\tW\tGold\nBarcelona\t1992\tAthletics\tAthletics\tDEVERS, Gail\tUSA\tWomen\t100m\tW\tGold\nBarcelona\t1992\tAthletics\tAthletics\tMARSH, Michael\tUSA\tMen\t200m\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tTORRENCE, Gwen\tUSA\tWomen\t200m\tW\tGold\nBarcelona\t1992\tAthletics\tAthletics\tWATTS, Quincy\tUSA\tMen\t400m\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tYOUNG, Kevin Curtis\tUSA\tMen\t400m hurdles\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tBURRELL, Leroy\tUSA\tMen\t4x100m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tJETT, James\tUSA\tMen\t4x100m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tLEWIS, Carl\tUSA\tMen\t4x100m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tMARSH, Michael\tUSA\tMen\t4x100m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tMITCHELL, Dennis\tUSA\tMen\t4x100m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tASHFORD, Evelyn\tUSA\tWomen\t4x100m relay\tW\tGold\nBarcelona\t1992\tAthletics\tAthletics\tFINN, Michelle\tUSA\tWomen\t4x100m relay\tW\tGold\nBarcelona\t1992\tAthletics\tAthletics\tGUIDRY-WHITE, Carlette D.\tUSA\tWomen\t4x100m relay\tW\tGold\nBarcelona\t1992\tAthletics\tAthletics\tJONES, Esther\tUSA\tWomen\t4x100m relay\tW\tGold\nBarcelona\t1992\tAthletics\tAthletics\tTORRENCE, Gwen\tUSA\tWomen\t4x100m relay\tW\tGold\nBarcelona\t1992\tAthletics\tAthletics\tHALL, Darnell\tUSA\tMen\t4x400m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tJENKINS, Charles L.\tUSA\tMen\t4x400m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tJOHNSON, Michael\tUSA\tMen\t4x400m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tLEWIS, Steve\tUSA\tMen\t4x400m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tVALMON, Andrew\tUSA\tMen\t4x400m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tWATTS, Quincy\tUSA\tMen\t4x400m relay\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tJOYNER-KERSEE, Jackie\tUSA\tWomen\theptathlon\tW\tGold\nBarcelona\t1992\tAthletics\tAthletics\tLEWIS, Carl\tUSA\tMen\tlong jump\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tSTULCE, Michael D.\tUSA\tMen\tshot put\tM\tGold\nBarcelona\t1992\tAthletics\tAthletics\tCONLEY, Mike\tUSA\tMen\ttriple jump\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tDEVERS, Gail\tUSA\tWomen\t100m\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tJOHNSON, Allen\tUSA\tMen\t110m hurdles\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tJOHNSON, Michael\tUSA\tMen\t200m\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tJOHNSON, Michael\tUSA\tMen\t400m\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tADKINS, Derrick\tUSA\tMen\t400m hurdles\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tDEVERS, Gail\tUSA\tWomen\t4x100m relay\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tGAINES, Chryste\tUSA\tWomen\t4x100m relay\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tGUIDRY-WHITE, Carlette D.\tUSA\tWomen\t4x100m relay\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tMILLER, Inger\tUSA\tWomen\t4x100m relay\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tTORRENCE, Gwen\tUSA\tWomen\t4x100m relay\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tHARRISON, Alvin\tUSA\tMen\t4x400m relay\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tMAYBANK, Anthuan\tUSA\tMen\t4x400m relay\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tMILLS, Derek\tUSA\tMen\t4x400m relay\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tROUSER, Jason\tUSA\tMen\t4x400m relay\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tSMITH, Lamont\tUSA\tMen\t4x400m relay\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tGRAHAM, Kim\tUSA\tWomen\t4x400m relay\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tMALONE, Maicel\tUSA\tWomen\t4x400m relay\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tMILES, Jearl\tUSA\tWomen\t4x400m relay\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tSTEVENS, Rochelle\tUSA\tWomen\t4x400m relay\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tWILSON, Linetta\tUSA\tWomen\t4x400m relay\tW\tGold\nAtlanta\t1996\tAthletics\tAthletics\tO'BRIEN, Dan\tUSA\tMen\tdecathlon\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tAUSTIN, Charles\tUSA\tMen\thigh jump\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tLEWIS, Carl\tUSA\tMen\tlong jump\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tBARNES, Eric Randolph\tUSA\tMen\tshot put\tM\tGold\nAtlanta\t1996\tAthletics\tAthletics\tHARRISON, Kenny\tUSA\tMen\ttriple jump\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tGREENE, Maurice\tUSA\tMen\t100m\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tJOHNSON, Michael\tUSA\tMen\t400m\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tTAYLOR, Angelo\tUSA\tMen\t400m hurdles\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tBROKENBURR, Kenneth\tUSA\tMen\t4x100m relay\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tDRUMMOND, Jon\tUSA\tMen\t4x100m relay\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tGREENE, Maurice\tUSA\tMen\t4x100m relay\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tLEWIS, Brian\tUSA\tMen\t4x100m relay\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tMONTGOMERY, Tim\tUSA\tMen\t4x100m relay\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tWILLIAMS III, Bernard\tUSA\tMen\t4x100m relay\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tANDERSON, Andrea\tUSA\tWomen\t4x400m relay\tW\tGold\nSydney\t2000\tAthletics\tAthletics\tCOLANDER, LaTasha\tUSA\tWomen\t4x400m relay\tW\tGold\nSydney\t2000\tAthletics\tAthletics\tHENNAGAN, Monique\tUSA\tWomen\t4x400m relay\tW\tGold\nSydney\t2000\tAthletics\tAthletics\tMILES, Jearl\tUSA\tWomen\t4x400m relay\tW\tGold\nSydney\t2000\tAthletics\tAthletics\tHYSONG, Nick\tUSA\tMen\tpole vault\tM\tGold\nSydney\t2000\tAthletics\tAthletics\tDRAGILA, Stacy\tUSA\tWomen\tpole vault\tW\tGold\nAthens\t2004\tAthletics\tAthletics\tGATLIN, Justin\tUSA\tMen\t100m\tM\tGold\nAthens\t2004\tAthletics\tAthletics\tHAYES, Joanna\tUSA\tWomen\t100m hurdles\tW\tGold\nAthens\t2004\tAthletics\tAthletics\tCRAWFORD, Shawn\tUSA\tMen\t200m\tM\tGold\nAthens\t2004\tAthletics\tAthletics\tWARINER, Jeremy\tUSA\tMen\t400m\tM\tGold\nAthens\t2004\tAthletics\tAthletics\tBREW, Derrick\tUSA\tMen\t4x400m relay\tM\tGold\nAthens\t2004\tAthletics\tAthletics\tHARRIS, Otis\tUSA\tMen\t4x400m relay\tM\tGold\nAthens\t2004\tAthletics\tAthletics\tWARINER, Jeremy\tUSA\tMen\t4x400m relay\tM\tGold\nAthens\t2004\tAthletics\tAthletics\tWILLIAMSON, Darold\tUSA\tMen\t4x400m relay\tM\tGold\nAthens\t2004\tAthletics\tAthletics\tWILLIE, Kelly\tUSA\tMen\t4x400m relay\tM\tGold\nAthens\t2004\tAthletics\tAthletics\tCOX, Crystal\tUSA\tWomen\t4x400m relay\tW\tGold\nAthens\t2004\tAthletics\tAthletics\tHENDERSON, Monique\tUSA\tWomen\t4x400m relay\tW\tGold\nAthens\t2004\tAthletics\tAthletics\tHENNAGAN, Monique\tUSA\tWomen\t4x400m relay\tW\tGold\nAthens\t2004\tAthletics\tAthletics\tRICHARDS, Sanya\tUSA\tWomen\t4x400m relay\tW\tGold\nAthens\t2004\tAthletics\tAthletics\tROBINSON, Moushaumi\tUSA\tWomen\t4x400m relay\tW\tGold\nAthens\t2004\tAthletics\tAthletics\tTROTTER, Deedee\tUSA\tWomen\t4x400m relay\tW\tGold\nAthens\t2004\tAthletics\tAthletics\tPHILLIPS, Dwight\tUSA\tMen\tlong jump\tM\tGold\nAthens\t2004\tAthletics\tAthletics\tMACK, Timothy\tUSA\tMen\tpole vault\tM\tGold\nBeijing\t2008\tAthletics\tAthletics\tHARPER, Dawn\tUSA\tWomen\t100m hurdles\tW\tGold\nBeijing\t2008\tAthletics\tAthletics\tMERRITT, LaShawn\tUSA\tMen\t400m\tM\tGold\nBeijing\t2008\tAthletics\tAthletics\tTAYLOR, Angelo\tUSA\tMen\t400m hurdles\tM\tGold\nBeijing\t2008\tAthletics\tAthletics\tMERRITT, LaShawn\tUSA\tMen\t4x400m relay\tM\tGold\nBeijing\t2008\tAthletics\tAthletics\tNEVILLE, David\tUSA\tMen\t4x400m relay\tM\tGold\nBeijing\t2008\tAthletics\tAthletics\tTAYLOR, Angelo\tUSA\tMen\t4x400m relay\tM\tGold\nBeijing\t2008\tAthletics\tAthletics\tWARINER, Jeremy\tUSA\tMen\t4x400m relay\tM\tGold\nBeijing\t2008\tAthletics\tAthletics\tFELIX, Allyson\tUSA\tWomen\t4x400m relay\tW\tGold\nBeijing\t2008\tAthletics\tAthletics\tHENDERSON, Monique\tUSA\tWomen\t4x400m relay\tW\tGold\nBeijing\t2008\tAthletics\tAthletics\tRICHARDS, Sanya\tUSA\tWomen\t4x400m relay\tW\tGold\nBeijing\t2008\tAthletics\tAthletics\tWINEBERG, Mary\tUSA\tWomen\t4x400m relay\tW\tGold\nBeijing\t2008\tAthletics\tAthletics\tCLAY, Bryan\tUSA\tMen\tdecathlon\tM\tGold\nBeijing\t2008\tAthletics\tAthletics\tBROWN TRAFTON, Stephanie\tUSA\tWomen\tdiscus throw\tW\tGold\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%sql\n-- Постройте график 5 атлетов которые выйграли большинство золотых медалей.\nWITH \naggr as (SELECT Athlete, count(*) as cnt FROM olympics GROUP BY Athlete)\n,rnk as (SELECT Athlete, cnt, RANK() OVER (ORDER BY cnt DESC) rnk FROM aggr)\nSELECT Athlete, cnt from rnk\n    WHERE rnk.rnk<=5",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-07T20:20:58+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Athlete": "string",
+                      "cnt": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                },
+                "multiBarChart": {
+                  "rotate": {
+                    "degree": "-45"
+                  },
+                  "xLabelStatus": "default"
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "Athlete",
+                  "index": 0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "cnt",
+                  "index": 1,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=85",
+              "$$hashKey": "object:35779"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636315846744_1759042487",
+      "id": "paragraph_1636315846744_1759042487",
+      "dateCreated": "2021-11-07T20:10:46+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:32434",
+      "dateFinished": "2021-11-07T20:20:54+0000",
+      "dateStarted": "2021-11-07T20:20:53+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Athlete\tcnt\nLATYNINA, Larisa\t18\nPHELPS, Michael\t16\nANDRIANOV, Nikolay\t15\nONO, Takashi\t13\nMANGIAROTTI, Edoardo\t13\nSHAKHLIN, Boris\t13\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%sql\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-08T07:07:15+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636355235659_1824834638",
+      "id": "paragraph_1636355235659_1824834638",
+      "dateCreated": "2021-11-08T07:07:15+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:37305"
+    },
+    {
+      "text": "%pyspark\n# Постройте таблицу в которой по годам всех олимпиад покажите топовых атлетов США(1 атлет на год) по общему количеству медалей Включите дисциплину атлета.\nfrom pyspark.sql import Window\nfrom pyspark.sql.functions import rank\nimport pyspark.sql.functions as f\n\nbase_facts=df.where(df.NOC=='USA')\ndf_aggr=base_facts.groupBy('Edition', 'Athlete').count().withColumnRenamed('count',\"medals_cnt\")\\\n    .withColumn(\"rank\",rank().over(Window.partitionBy(\"Edition\").orderBy(f.col(\"medals_cnt\").desc())))\n# df_aggr.show()\ndf_join=base_facts \\\n    .join(df_aggr, (df_aggr[\"Edition\"] == base_facts[\"Edition\"]) & (df_aggr[\"Athlete\"] == base_facts[\"Athlete\"]))\\\n    .where(df_aggr.rank==1)\ndf_join.select(base_facts.Edition, base_facts.Athlete, 'Discipline', 'Event', 'medals_cnt').show(1000)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-08T08:20:54+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=141",
+              "$$hashKey": "object:39505"
+            },
+            {
+              "jobUrl": "http://65296fa4d8c1:4040/jobs/job?id=142",
+              "$$hashKey": "object:39506"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636316415921_1400703863",
+      "id": "paragraph_1636316415921_1400703863",
+      "dateCreated": "2021-11-07T20:20:15+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:34483",
+      "dateFinished": "2021-11-08T08:20:56+0000",
+      "dateStarted": "2021-11-08T08:20:54+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-------+--------------------+-------------+--------------------+----------+\n|Edition|             Athlete|   Discipline|               Event|medals_cnt|\n+-------+--------------------+-------------+--------------------+----------+\n|   1896|     GARRETT, Robert|    Athletics|        discus throw|         4|\n|   1896|     GARRETT, Robert|    Athletics|           high jump|         4|\n|   1896|     GARRETT, Robert|    Athletics|           long jump|         4|\n|   1896|     GARRETT, Robert|    Athletics|            shot put|         4|\n|   1900|TEWKSBURY, Walter...|    Athletics|                100m|         5|\n|   1900|TEWKSBURY, Walter...|    Athletics|                200m|         5|\n|   1900|TEWKSBURY, Walter...|    Athletics|        200m hurdles|         5|\n|   1900|TEWKSBURY, Walter...|    Athletics|        400m hurdles|         5|\n|   1900|TEWKSBURY, Walter...|    Athletics|                 60m|         5|\n|   1900|      BAXTER, Irving|    Athletics|           high jump|         5|\n|   1900|      BAXTER, Irving|    Athletics| high jump, standing|         5|\n|   1900|      BAXTER, Irving|    Athletics| long jump, standing|         5|\n|   1900|      BAXTER, Irving|    Athletics|          pole vault|         5|\n|   1900|      BAXTER, Irving|    Athletics|triple jump, stan...|         5|\n|   1904|     DOWNING, Burton|Cycling Track|    1 mile (1609.3m)|         6|\n|   1904|     DOWNING, Burton|Cycling Track|   1/2 mile (804.7m)|         6|\n|   1904|     DOWNING, Burton|Cycling Track|   1/3 mile (536.5m)|         6|\n|   1904|     DOWNING, Burton|Cycling Track|   1/4 mile (402.3m)|         6|\n|   1904|     DOWNING, Burton|Cycling Track|   2 miles (3.218km)|         6|\n|   1904|     DOWNING, Burton|Cycling Track| 25 miles (40.232km)|         6|\n|   1904|        HEIDA, Anton|  Artistic G.|   combined 4 events|         6|\n|   1904|       EYSER, George|  Artistic G.|   combined 4 events|         6|\n|   1904|       EYSER, George|  Artistic G.|      horizontal bar|         6|\n|   1904|        HEIDA, Anton|  Artistic G.|      horizontal bar|         6|\n|   1904|       EYSER, George|  Artistic G.|       parallel bars|         6|\n|   1904|        HEIDA, Anton|  Artistic G.|       parallel bars|         6|\n|   1904|        HEIDA, Anton|  Artistic G.|        pommel horse|         6|\n|   1904|       EYSER, George|  Artistic G.|        pommel horse|         6|\n|   1904|       EYSER, George|  Artistic G.|       rope climbing|         6|\n|   1904|        HEIDA, Anton|  Artistic G.|    team competition|         6|\n|   1904|       EYSER, George|  Artistic G.|               vault|         6|\n|   1904|        HEIDA, Anton|  Artistic G.|               vault|         6|\n|   1908|    SHEPPARD, Melvin|    Athletics|               1500m|         3|\n|   1908|    SHEPPARD, Melvin|    Athletics|        4x400m relay|         3|\n|   1908|    SHEPPARD, Melvin|    Athletics|                800m|         3|\n|   1908|    SHERIDAN, Martin|    Athletics|        discus throw|         3|\n|   1908|    SHERIDAN, Martin|    Athletics|discus throw anci...|         3|\n|   1908|    SHERIDAN, Martin|    Athletics| long jump, standing|         3|\n|   1912|OSBURN, Carl Town...|     Shooting|50m small bore ri...|         4|\n|   1912|OSBURN, Carl Town...|     Shooting|     600m free rifle|         4|\n|   1912|OSBURN, Carl Town...|     Shooting|army rifle, 300m,...|         4|\n|   1912|OSBURN, Carl Town...|     Shooting|         rifle, team|         4|\n|   1920|         LEE, Willis|     Shooting|100m running deer...|         7|\n|   1920|SPOONER, Lloyd Sp...|     Shooting|100m running deer...|         7|\n|   1920|         LEE, Willis|     Shooting|300+600m free rif...|         7|\n|   1920|SPOONER, Lloyd Sp...|     Shooting|300+600m free rif...|         7|\n|   1920|         LEE, Willis|     Shooting|300m free rifle, ...|         7|\n|   1920|SPOONER, Lloyd Sp...|     Shooting|300m free rifle, ...|         7|\n|   1920|         LEE, Willis|     Shooting|300m free rifle, ...|         7|\n|   1920|SPOONER, Lloyd Sp...|     Shooting|300m free rifle, ...|         7|\n|   1920|         LEE, Willis|     Shooting|50m small bore ri...|         7|\n|   1920|SPOONER, Lloyd Sp...|     Shooting|600m free rifle, ...|         7|\n|   1920|         LEE, Willis|     Shooting|600m free rifle, ...|         7|\n|   1920|SPOONER, Lloyd Sp...|     Shooting|600m free rifle, ...|         7|\n|   1920|         LEE, Willis|     Shooting|    free rifle, team|         7|\n|   1920|SPOONER, Lloyd Sp...|     Shooting|    free rifle, team|         7|\n|   1924| WEISSMULLER, Johnny|     Swimming|      100m freestyle|         4|\n|   1924| WEISSMULLER, Johnny|     Swimming|      400m freestyle|         4|\n|   1924| WEISSMULLER, Johnny|     Swimming|4x200m freestyle ...|         4|\n|   1924| WEISSMULLER, Johnny|   Water polo|          water polo|         4|\n|   1928|GALITZEN, Michael...|       Diving|        10m platform|         2|\n|   1928|\"DESJARDINS, Ulis...|       Diving|        10m platform|         2|\n|   1928| COLEMAN, Georgia V.|       Diving|        10m platform|         2|\n|   1928|\"DESJARDINS, Ulis...|       Diving|      3m springboard|         2|\n|   1928|GALITZEN, Michael...|       Diving|      3m springboard|         2|\n|   1928| COLEMAN, Georgia V.|       Diving|      3m springboard|         2|\n|   1928|KOJAC, George Harold|     Swimming|     100m backstroke|         2|\n|   1928|      LAUFER, Walter|     Swimming|     100m backstroke|         2|\n|   1928| WEISSMULLER, Johnny|     Swimming|      100m freestyle|         2|\n|   1928|OSIPOWICH, Albina...|     Swimming|      100m freestyle|         2|\n|   1928|    SAVILLE, Eleanor|     Swimming|      100m freestyle|         2|\n|   1928|    NORELIUS, Martha|     Swimming|      400m freestyle|         2|\n|   1928|    NORELIUS, Martha|     Swimming|4x100m freestyle ...|         2|\n|   1928|OSIPOWICH, Albina...|     Swimming|4x100m freestyle ...|         2|\n|   1928|    SAVILLE, Eleanor|     Swimming|4x100m freestyle ...|         2|\n|   1928|KOJAC, George Harold|     Swimming|4x200m freestyle ...|         2|\n|   1928|      LAUFER, Walter|     Swimming|4x200m freestyle ...|         2|\n|   1928| WEISSMULLER, Johnny|     Swimming|4x200m freestyle ...|         2|\n|   1928| ROBINSON, Elizabeth|    Athletics|                100m|         2|\n|   1928|BARBUTI, Raymond ...|    Athletics|                400m|         2|\n|   1928| ROBINSON, Elizabeth|    Athletics|        4x100m relay|         2|\n|   1928|BARBUTI, Raymond ...|    Athletics|        4x400m relay|         2|\n|   1932|     MADISON, Helene|     Swimming|      100m freestyle|         3|\n|   1932|     MADISON, Helene|     Swimming|      400m freestyle|         3|\n|   1932|     MADISON, Helene|     Swimming|4x100m freestyle ...|         3|\n|   1932|  DIDRIKSON, Mildred|    Athletics|         80m hurdles|         3|\n|   1932|  DIDRIKSON, Mildred|    Athletics|           high jump|         3|\n|   1932|  DIDRIKSON, Mildred|    Athletics|       javelin throw|         3|\n|   1936|        OWENS, Jesse|    Athletics|                100m|         4|\n|   1936|        OWENS, Jesse|    Athletics|                200m|         4|\n|   1936|        OWENS, Jesse|    Athletics|        4x100m relay|         4|\n|   1936|        OWENS, Jesse|    Athletics|           long jump|         4|\n|   1948|CURTIS, Ann Elisa...|     Swimming|      100m freestyle|         3|\n|   1948|MCLANE, James Pri...|     Swimming|     1500m freestyle|         3|\n|   1948|MCLANE, James Pri...|     Swimming|      400m freestyle|         3|\n|   1948|CURTIS, Ann Elisa...|     Swimming|      400m freestyle|         3|\n|   1948|CURTIS, Ann Elisa...|     Swimming|4x100m freestyle ...|         3|\n|   1948|MCLANE, James Pri...|     Swimming|4x200m freestyle ...|         3|\n|   1948|EWELL, Harold Nor...|    Athletics|                100m|         3|\n|   1948|EWELL, Harold Nor...|    Athletics|                200m|         3|\n|   1948|WHITFIELD, Malvin...|    Athletics|                400m|         3|\n|   1948|EWELL, Harold Nor...|    Athletics|        4x100m relay|         3|\n|   1948|WHITFIELD, Malvin...|    Athletics|        4x400m relay|         3|\n|   1948|WHITFIELD, Malvin...|    Athletics|                800m|         3|\n|   1948|HENRY, Frank Sherman|     Dressage|                team|         3|\n|   1948|HENRY, Frank Sherman|     Eventing|          individual|         3|\n|   1948|HENRY, Frank Sherman|     Eventing|                team|         3|\n|   1952| KONNO, Ford Hiroshi|     Swimming|     1500m freestyle|         3|\n|   1952| KONNO, Ford Hiroshi|     Swimming|      400m freestyle|         3|\n|   1952| KONNO, Ford Hiroshi|     Swimming|4x200m freestyle ...|         3|\n|   1956|BREEN, George Thomas|     Swimming|     1500m freestyle|         3|\n|   1956|BREEN, George Thomas|     Swimming|      400m freestyle|         3|\n|   1956|BREEN, George Thomas|     Swimming|4x200m freestyle ...|         3|\n|   1956|MORROW, Robert Jo...|    Athletics|                100m|         3|\n|   1956| BAKER, Walter Thane|    Athletics|                100m|         3|\n|   1956| BAKER, Walter Thane|    Athletics|                200m|         3|\n|   1956|MORROW, Robert Jo...|    Athletics|                200m|         3|\n|   1956| BAKER, Walter Thane|    Athletics|        4x100m relay|         3|\n|   1956|MORROW, Robert Jo...|    Athletics|        4x100m relay|         3|\n|   1960|VON SALTZA, Susan...|     Swimming|      100m freestyle|         4|\n|   1960|VON SALTZA, Susan...|     Swimming|      400m freestyle|         4|\n|   1960|VON SALTZA, Susan...|     Swimming|4x100m freestyle ...|         4|\n|   1960|VON SALTZA, Susan...|     Swimming| 4x100m medley relay|         4|\n|   1964|     ELLIS, Kathleen|     Swimming|      100m butterfly|         4|\n|   1964|STOUDER, Sharon M...|     Swimming|      100m butterfly|         4|\n|   1964|SCHOLLANDER, Dona...|     Swimming|      100m freestyle|         4|\n|   1964|     ELLIS, Kathleen|     Swimming|      100m freestyle|         4|\n|   1964|STOUDER, Sharon M...|     Swimming|      100m freestyle|         4|\n|   1964|SCHOLLANDER, Dona...|     Swimming|      400m freestyle|         4|\n|   1964|SCHOLLANDER, Dona...|     Swimming|4x100m freestyle ...|         4|\n|   1964|     ELLIS, Kathleen|     Swimming|4x100m freestyle ...|         4|\n|   1964|STOUDER, Sharon M...|     Swimming|4x100m freestyle ...|         4|\n|   1964|     ELLIS, Kathleen|     Swimming| 4x100m medley relay|         4|\n|   1964|STOUDER, Sharon M...|     Swimming| 4x100m medley relay|         4|\n|   1964|SCHOLLANDER, Dona...|     Swimming|4x200m freestyle ...|         4|\n|   1968|HICKCOX, Charles ...|     Swimming|     100m backstroke|         4|\n|   1968|         SPITZ, Mark|     Swimming|      100m butterfly|         4|\n|   1968|         SPITZ, Mark|     Swimming|      100m freestyle|         4|\n|   1968|   HENNE, Jane Margo|     Swimming|      100m freestyle|         4|\n|   1968|PEDERSEN, Susan Jane|     Swimming|      100m freestyle|         4|\n|   1968|   HENNE, Jane Margo|     Swimming|      200m freestyle|         4|\n|   1968|HICKCOX, Charles ...|     Swimming|200m individual m...|         4|\n|   1968|   HENNE, Jane Margo|     Swimming|200m individual m...|         4|\n|   1968|PEDERSEN, Susan Jane|     Swimming|200m individual m...|         4|\n|   1968|HICKCOX, Charles ...|     Swimming|400m individual m...|         4|\n|   1968|         SPITZ, Mark|     Swimming|4x100m freestyle ...|         4|\n|   1968|   HENNE, Jane Margo|     Swimming|4x100m freestyle ...|         4|\n|   1968|PEDERSEN, Susan Jane|     Swimming|4x100m freestyle ...|         4|\n|   1968|HICKCOX, Charles ...|     Swimming| 4x100m medley relay|         4|\n|   1968|PEDERSEN, Susan Jane|     Swimming| 4x100m medley relay|         4|\n|   1968|         SPITZ, Mark|     Swimming|4x200m freestyle ...|         4|\n|   1972|         SPITZ, Mark|     Swimming|      100m butterfly|         7|\n|   1972|         SPITZ, Mark|     Swimming|      100m freestyle|         7|\n|   1972|         SPITZ, Mark|     Swimming|      200m butterfly|         7|\n|   1972|         SPITZ, Mark|     Swimming|      200m freestyle|         7|\n|   1972|         SPITZ, Mark|     Swimming|4x100m freestyle ...|         7|\n|   1972|         SPITZ, Mark|     Swimming| 4x100m medley relay|         7|\n|   1972|         SPITZ, Mark|     Swimming|4x200m freestyle ...|         7|\n|   1976|NABER, John Phillips|     Swimming|     100m backstroke|         5|\n|   1976|NABER, John Phillips|     Swimming|     200m backstroke|         5|\n|   1976|NABER, John Phillips|     Swimming|      200m freestyle|         5|\n|   1976|BABASHOFF, Shirle...|     Swimming|      200m freestyle|         5|\n|   1976|BABASHOFF, Shirle...|     Swimming|      400m freestyle|         5|\n|   1976|BABASHOFF, Shirle...|     Swimming|4x100m freestyle ...|         5|\n|   1976|NABER, John Phillips|     Swimming| 4x100m medley relay|         5|\n|   1976|BABASHOFF, Shirle...|     Swimming| 4x100m medley relay|         5|\n|   1976|NABER, John Phillips|     Swimming|4x200m freestyle ...|         5|\n|   1976|BABASHOFF, Shirle...|     Swimming|      800m freestyle|         5|\n|   1984|    RETTON, Mary-Lou|  Artistic G.|     floor exercises|         5|\n|   1984|    RETTON, Mary-Lou|  Artistic G.|individual all-round|         5|\n|   1984|    RETTON, Mary-Lou|  Artistic G.|    team competition|         5|\n|   1984|    RETTON, Mary-Lou|  Artistic G.|         uneven bars|         5|\n|   1984|    RETTON, Mary-Lou|  Artistic G.|               vault|         5|\n|   1988|     BIONDI, Matthew|     Swimming|      100m butterfly|         7|\n|   1988|     BIONDI, Matthew|     Swimming|      100m freestyle|         7|\n|   1988|     BIONDI, Matthew|     Swimming|      200m freestyle|         7|\n|   1988|     BIONDI, Matthew|     Swimming|4x100m freestyle ...|         7|\n|   1988|     BIONDI, Matthew|     Swimming| 4x100m medley relay|         7|\n|   1988|     BIONDI, Matthew|     Swimming|4x200m freestyle ...|         7|\n|   1988|     BIONDI, Matthew|     Swimming|       50m freestyle|         7|\n|   1992|     MILLER, Shannon|  Artistic G.|        balance beam|         5|\n|   1992|     MILLER, Shannon|  Artistic G.|     floor exercises|         5|\n|   1992|     MILLER, Shannon|  Artistic G.|individual all-round|         5|\n|   1992|     MILLER, Shannon|  Artistic G.|    team competition|         5|\n|   1992|     MILLER, Shannon|  Artistic G.|         uneven bars|         5|\n|   1996|      MARTINO, Angel|     Swimming|      100m butterfly|         4|\n|   1996|      VAN DYKEN, Amy|     Swimming|      100m butterfly|         4|\n|   1996|      HALL, Gary Jr.|     Swimming|      100m freestyle|         4|\n|   1996|      MARTINO, Angel|     Swimming|      100m freestyle|         4|\n|   1996|      HALL, Gary Jr.|     Swimming|4x100m freestyle ...|         4|\n|   1996|      MARTINO, Angel|     Swimming|4x100m freestyle ...|         4|\n|   1996|      VAN DYKEN, Amy|     Swimming|4x100m freestyle ...|         4|\n|   1996|      HALL, Gary Jr.|     Swimming| 4x100m medley relay|         4|\n|   1996|      MARTINO, Angel|     Swimming| 4x100m medley relay|         4|\n|   1996|      VAN DYKEN, Amy|     Swimming| 4x100m medley relay|         4|\n|   1996|      HALL, Gary Jr.|     Swimming|       50m freestyle|         4|\n|   1996|      VAN DYKEN, Amy|     Swimming|       50m freestyle|         4|\n|   2000|        TORRES, Dara|     Swimming|      100m butterfly|         5|\n|   2000|        TORRES, Dara|     Swimming|      100m freestyle|         5|\n|   2000|        TORRES, Dara|     Swimming|4x100m freestyle ...|         5|\n|   2000|        TORRES, Dara|     Swimming| 4x100m medley relay|         5|\n|   2000|        TORRES, Dara|     Swimming|       50m freestyle|         5|\n|   2004|     PHELPS, Michael|     Swimming|      100m butterfly|         8|\n|   2004|     PHELPS, Michael|     Swimming|      200m butterfly|         8|\n|   2004|     PHELPS, Michael|     Swimming|      200m freestyle|         8|\n|   2004|     PHELPS, Michael|     Swimming|200m individual m...|         8|\n|   2004|     PHELPS, Michael|     Swimming|400m individual m...|         8|\n|   2004|     PHELPS, Michael|     Swimming|4x100m freestyle ...|         8|\n|   2004|     PHELPS, Michael|     Swimming| 4x100m medley relay|         8|\n|   2004|     PHELPS, Michael|     Swimming|4x200m freestyle ...|         8|\n|   2008|     PHELPS, Michael|     Swimming|      100m butterfly|         8|\n|   2008|     PHELPS, Michael|     Swimming|      200m butterfly|         8|\n|   2008|     PHELPS, Michael|     Swimming|      200m freestyle|         8|\n|   2008|     PHELPS, Michael|     Swimming|200m individual m...|         8|\n|   2008|     PHELPS, Michael|     Swimming|400m individual m...|         8|\n|   2008|     PHELPS, Michael|     Swimming|4x100m freestyle ...|         8|\n|   2008|     PHELPS, Michael|     Swimming| 4x100m medley relay|         8|\n|   2008|     PHELPS, Michael|     Swimming|4x200m freestyle ...|         8|\n+-------+--------------------+-------------+--------------------+----------+\n\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%pyspark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-08T07:08:04+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636355284375_311705407",
+      "id": "paragraph_1636355284375_311705407",
+      "dateCreated": "2021-11-08T07:08:04+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:37374"
+    }
+  ],
+  "name": "spark_tests",
+  "id": "2GPWY66C4",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/spark_tests"
+}

@@ -1,0 +1,5 @@
+/venv/
+/.idea/
+/09_context_managers_and_db/task_02/testdb.db
+**/__pycache__/
+/.ipynb_checkpoints/

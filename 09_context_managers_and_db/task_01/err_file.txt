@@ -1,0 +1,1 @@
+exc_type=<class 'ZeroDivisionError'>; exc_val=ZeroDivisionError('division by zero'); now='2022-02-05T19:48:59.641074'
