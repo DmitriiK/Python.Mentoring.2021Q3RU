@@ -2,7 +2,7 @@ from peewee import Model,  PrimaryKeyField, ForeignKeyField,\
     CompositeKey, CharField, DateField,  DoubleField, SqliteDatabase
 import datetime
 
-# db = PostgresqlDatabase('postgres', user="postgres", password="123")
+# db = PostgresqlDatabase('postgres', user="postgres", password=***)
 db = SqliteDatabase('testdb.db')
 
 

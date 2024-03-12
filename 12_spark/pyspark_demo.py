@@ -93,7 +93,6 @@ df = spark.read.jdbc(url="jdbc:postgresql://localhost:5432/postgres",
                      properties={
                          "driver": "org.postgresql.Driver",
                          "user": "postgres",
-                         "password": "postgres",
                      })
 df.show()
 
@@ -108,7 +107,6 @@ df = spark.read.jdbc(url="jdbc:postgresql://localhost:5432/postgres",
                      properties={
                          "driver": "org.postgresql.Driver",
                          "user": "postgres",
-                         "password": "postgres",
 
                      })
 df.show()
@@ -381,7 +379,6 @@ df.write.format("jdbc") \
   .option("url", "jdbc:postgresql://localhost:5432/postgres") \
   .option("dbtable", "spark_test_data_wr") \
   .option("user", "postgres") \
-  .option("password", "postgres") \
   .option("driver", "org.postgresql.Driver") \
   .save()
 
@@ -391,6 +388,5 @@ df = spark.read.jdbc(url="jdbc:postgresql://localhost:5432/postgres",
                      properties={
                          "driver": "org.postgresql.Driver",
                          "user": "postgres",
-                         "password": "postgres",
                      })
 
